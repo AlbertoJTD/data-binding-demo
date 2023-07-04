@@ -19,6 +19,15 @@
                 </FormattedString>
             </Label.FormattedText>
         </Label>
+
+       <!-- The dot '.' means that we are accessing to the property that belongs to the current class -->
+       <!--<Label Text="{Binding .}"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"/>-->
+
+        <Label Text="{Binding LastName}"
+              HorizontalOptions="Center"
+              VerticalOptions="CenterAndExpand"/>
     </StackLayout>
 
 </ContentPage>
